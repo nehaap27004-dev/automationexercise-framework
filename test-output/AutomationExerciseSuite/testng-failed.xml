@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [AutomationExerciseSuite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="AutomationTests(failed)">
+    <classes>
+      <class name="testcases.SignupTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="verifyAccountCreation"/>
+          <include name="verifyExistingEmailSignup"/>
+        </methods>
+      </class> <!-- testcases.SignupTest -->
+      <class name="testcases.ProductsTest">
+        <methods>
+          <include name="verifyAddProductToCart"/>
+          <include name="tearDown"/>
+          <include name="verifyViewProduct"/>
+          <include name="setup"/>
+          <include name="verifyValidProductSearch"/>
+          <include name="verifyProductDetails"/>
+          <include name="verifyRemoveProductFromCart"/>
+          <include name="verifyWomenCategoryFilter"/>
+        </methods>
+      </class> <!-- testcases.ProductsTest -->
+      <class name="testcases.ContactUsTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="verifyFileUploadSubmission"/>
+        </methods>
+      </class> <!-- testcases.ContactUsTest -->
+      <class name="testcases.CheckoutTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="verifyAddressDetails"/>
+        </methods>
+      </class> <!-- testcases.CheckoutTest -->
+      <class name="testcases.LoginTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="verifyValidLogin"/>
+        </methods>
+      </class> <!-- testcases.LoginTest -->
+    </classes>
+  </test> <!-- AutomationTests(failed) -->
+</suite> <!-- Failed suite [AutomationExerciseSuite] -->
