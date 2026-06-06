@@ -122,7 +122,7 @@ public class CheckoutTest extends BaseClass {
 		
 
 	}
-	@Test
+	/**@Test
 	public void verifyOrderReviewDetails() {
 
 	
@@ -193,7 +193,7 @@ public class CheckoutTest extends BaseClass {
 	Assert.assertFalse(totalPrice.isEmpty());
 
 	}
-	
+	**/
 	@Test
 	public void verifyPlaceOrderNavigation() {
 

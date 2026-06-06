@@ -137,7 +137,7 @@ public class ProductsTest extends BaseClass {
 	pp.clickProductsButton();
 
 	// Click Women category
-	pp.clickWomenCategory();
+	pp.clickWomenDressCategory();
 
 	// Click Dress subcategory
 	pp.clickWomenDressCategory();

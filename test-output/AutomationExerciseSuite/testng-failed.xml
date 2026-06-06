@@ -3,47 +3,27 @@
 <suite name="Failed suite [AutomationExerciseSuite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="AutomationTests(failed)">
     <classes>
-      <class name="testcases.SignupTest">
-        <methods>
-          <include name="tearDown"/>
-          <include name="setup"/>
-          <include name="verifyAccountCreation"/>
-          <include name="verifyExistingEmailSignup"/>
-        </methods>
-      </class> <!-- testcases.SignupTest -->
-      <class name="testcases.ProductsTest">
-        <methods>
-          <include name="verifyAddProductToCart"/>
-          <include name="tearDown"/>
-          <include name="verifyViewProduct"/>
-          <include name="setup"/>
-          <include name="verifyValidProductSearch"/>
-          <include name="verifyProductDetails"/>
-          <include name="verifyRemoveProductFromCart"/>
-          <include name="verifyWomenCategoryFilter"/>
-        </methods>
-      </class> <!-- testcases.ProductsTest -->
-      <class name="testcases.ContactUsTest">
-        <methods>
-          <include name="tearDown"/>
-          <include name="setup"/>
-          <include name="verifyFileUploadSubmission"/>
-        </methods>
-      </class> <!-- testcases.ContactUsTest -->
       <class name="testcases.CheckoutTest">
         <methods>
           <include name="tearDown"/>
           <include name="setup"/>
-          <include name="verifyAddressDetails"/>
+          <include name="verifyOrderReviewDetails"/>
         </methods>
       </class> <!-- testcases.CheckoutTest -->
-      <class name="testcases.LoginTest">
+      <class name="testcases.ProductsTest">
         <methods>
           <include name="tearDown"/>
           <include name="setup"/>
-          <include name="verifyValidLogin"/>
+          <include name="verifyValidProductSearch"/>
         </methods>
-      </class> <!-- testcases.LoginTest -->
+      </class> <!-- testcases.ProductsTest -->
+      <class name="testcases.PaymentTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="verifySuccessfulOrderPlacement"/>
+        </methods>
+      </class> <!-- testcases.PaymentTest -->
     </classes>
   </test> <!-- AutomationTests(failed) -->
 </suite> <!-- Failed suite [AutomationExerciseSuite] -->

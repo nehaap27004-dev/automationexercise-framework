@@ -89,8 +89,11 @@ public class ContactUsTest extends BaseClass {
 		contact.enterMessage("Testing file upload using Selenium.");
 	
 		// Upload File
-		contact.uploadFile("C:\\Users\\nehaa\\eclipse-workspace\\AutomationExerciseFramework\\testing.xml");
-	
+		String filePath = System.getProperty("user.dir")
+				+ "/testdata/testng.xml";
+
+				contact.uploadFile(filePath);
+
 		// Click Submit
 		contact.clickSubmitButton();
 	

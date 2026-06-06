@@ -2,6 +2,7 @@ package pages;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import java.time.Duration;
@@ -93,17 +94,26 @@ public class ProductsPage {
 	
 	    return driver.findElement(productCategory).getText();
 	}
-	public void clickWomenCategory() {
-
-
-		driver.findElement(womenCategory).click();
-	}
-
 	public void clickWomenDressCategory() {
 
-		driver.findElement(womenDressCategory).click();
+
+		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(15));
+
+		By dressLocator = By.xpath("//a[contains(text(),'Dress')]");
+
+		wait.until(ExpectedConditions.presenceOfElementLocated(dressLocator));
+
+		WebElement dressCategory = driver.findElement(dressLocator);
+
+		JavascriptExecutor js = (JavascriptExecutor) driver;
+
+		js.executeScript("arguments[0].scrollIntoView(true);", dressCategory);
+
+		js.executeScript("arguments[0].click();", dressCategory);
+	
 
 	}
+
 
 	public String getCategoryPageText() {
 		return driver.findElement(categoryPageText).getText();

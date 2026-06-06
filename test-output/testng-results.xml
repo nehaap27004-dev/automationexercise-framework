@@ -1,77 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="2" failed="1" skipped="0">
+<testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-06-05T19:51:00 IST" name="Default suite" finished-at="2026-06-05T19:52:07 IST" duration-ms="66665">
+  <suite started-at="2026-06-06T16:23:33 IST" name="Default suite" finished-at="2026-06-06T16:27:49 IST" duration-ms="256530">
     <groups>
     </groups>
-    <test started-at="2026-06-05T19:51:00 IST" name="Default test" finished-at="2026-06-05T19:52:07 IST" duration-ms="66665">
-      <class name="testcases.ContactUsTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.ContactUsTest@4c12331b]" started-at="2026-06-05T19:51:00 IST" name="setup" finished-at="2026-06-05T19:51:15 IST" duration-ms="15045" status="PASS">
+    <test started-at="2026-06-06T16:23:33 IST" name="Default test" finished-at="2026-06-06T16:27:49 IST" duration-ms="256530">
+      <class name="testcases.PaymentTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.PaymentTest@22ff4249]" started-at="2026-06-06T16:23:33 IST" name="setup" finished-at="2026-06-06T16:24:09 IST" duration-ms="36020" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verifyContactFormSubmission()[pri:0, instance:testcases.ContactUsTest@4c12331b]" started-at="2026-06-05T19:51:15 IST" name="verifyContactFormSubmission" finished-at="2026-06-05T19:51:27 IST" duration-ms="11879" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyContactFormSubmission -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:testcases.ContactUsTest@4c12331b]" started-at="2026-06-05T19:51:27 IST" name="tearDown" finished-at="2026-06-05T19:51:29 IST" duration-ms="1992" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=verifyContactFormSubmission status=SUCCESS method=ContactUsTest.verifyContactFormSubmission()[pri:0, instance:testcases.ContactUsTest@4c12331b] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.ContactUsTest@4c12331b]" started-at="2026-06-05T19:51:29 IST" name="setup" finished-at="2026-06-05T19:51:40 IST" duration-ms="10571" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="verifyContactUsPageNavigation()[pri:0, instance:testcases.ContactUsTest@4c12331b]" started-at="2026-06-05T19:51:40 IST" name="verifyContactUsPageNavigation" finished-at="2026-06-05T19:51:43 IST" duration-ms="3128" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyContactUsPageNavigation -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:testcases.ContactUsTest@4c12331b]" started-at="2026-06-05T19:51:43 IST" name="tearDown" finished-at="2026-06-05T19:51:44 IST" duration-ms="1075" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=verifyContactUsPageNavigation status=SUCCESS method=ContactUsTest.verifyContactUsPageNavigation()[pri:0, instance:testcases.ContactUsTest@4c12331b] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.ContactUsTest@4c12331b]" started-at="2026-06-05T19:51:44 IST" name="setup" finished-at="2026-06-05T19:51:55 IST" duration-ms="11425" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="verifyFileUploadSubmission()[pri:0, instance:testcases.ContactUsTest@4c12331b]" started-at="2026-06-05T19:51:55 IST" name="verifyFileUploadSubmission" finished-at="2026-06-05T19:52:03 IST" duration-ms="7642" status="FAIL">
-          <exception class="org.openqa.selenium.InvalidArgumentException">
+        <test-method signature="verifySuccessfulOrderPlacement()[pri:0, instance:testcases.PaymentTest@22ff4249]" started-at="2026-06-06T16:24:09 IST" name="verifySuccessfulOrderPlacement" finished-at="2026-06-06T16:27:45 IST" duration-ms="216158" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
-              <![CDATA[invalid argument: File not found : C:\Users\nehaa\eclipse-workspace\AutomationExerciseFramework\testing.xml
+              <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"*[name='name_on_card']"}
   (Session info: chrome=148.0.7778.217)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: '4.21.0', revision: '79ed462ef4'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.11'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [0ed4e738c04fdb9b9629ccb5b807a04b, sendKeysToElement {id=f.B9F0689F3A9FCAC7E99864A8F1C3E287.d.0EC2F5E53EC9344972BE0BCC260B071E.e.59, value=[Ljava.lang.CharSequence;@4993febc}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.217, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\nehaa\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61380}, goog:processID: 76628, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61380/devtoo..., se:cdpVersion: 148.0.7778.217, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (0ed4e738c04fdb9b9629ccb5b807a04b)] -> name: upload_file]
-Session ID: 0ed4e738c04fdb9b9629ccb5b807a04b]]>
+Command: [1337f6cc46358ff3b5f53dbae928f794, findElement {using=name, value=name_on_card}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.217, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\nehaa\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50859}, goog:processID: 77764, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50859/devtoo..., se:cdpVersion: 148.0.7778.217, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 1337f6cc46358ff3b5f53dbae928f794]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.InvalidArgumentException: invalid argument: File not found : C:\Users\nehaa\eclipse-workspace\AutomationExerciseFramework\testing.xml
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"*[name='name_on_card']"}
   (Session info: chrome=148.0.7778.217)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: '4.21.0', revision: '79ed462ef4'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.11'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [0ed4e738c04fdb9b9629ccb5b807a04b, sendKeysToElement {id=f.B9F0689F3A9FCAC7E99864A8F1C3E287.d.0EC2F5E53EC9344972BE0BCC260B071E.e.59, value=[Ljava.lang.CharSequence;@4993febc}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.217, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\nehaa\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61380}, goog:processID: 76628, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61380/devtoo..., se:cdpVersion: 148.0.7778.217, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (0ed4e738c04fdb9b9629ccb5b807a04b)] -> name: upload_file]
-Session ID: 0ed4e738c04fdb9b9629ccb5b807a04b
+Command: [1337f6cc46358ff3b5f53dbae928f794, findElement {using=name, value=name_on_card}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.217, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\nehaa\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50859}, goog:processID: 77764, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50859/devtoo..., se:cdpVersion: 148.0.7778.217, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 1337f6cc46358ff3b5f53dbae928f794
 at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
 at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
 at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
@@ -82,10 +44,12 @@ at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.ja
 at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
 at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
 at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
-at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
-at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:110)
-at pages.ContactUsPage.uploadFile(ContactUsPage.java:95)
-at testcases.ContactUsTest.verifyFileUploadSubmission(ContactUsTest.java:92)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
+at pages.PaymentPage.enterNameOnCard(PaymentPage.java:43)
+at testcases.PaymentTest.verifySuccessfulOrderPlacement(PaymentTest.java:64)
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
@@ -114,22 +78,22 @@ at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.InvalidArgumentException -->
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyFileUploadSubmission -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:testcases.ContactUsTest@4c12331b]" started-at="2026-06-05T19:52:03 IST" name="tearDown" finished-at="2026-06-05T19:52:07 IST" duration-ms="3797" status="PASS">
+        </test-method> <!-- verifySuccessfulOrderPlacement -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:testcases.PaymentTest@22ff4249]" started-at="2026-06-06T16:27:45 IST" name="tearDown" finished-at="2026-06-06T16:27:49 IST" duration-ms="4159" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=verifyFileUploadSubmission status=FAILURE method=ContactUsTest.verifyFileUploadSubmission()[pri:0, instance:testcases.ContactUsTest@4c12331b] output={null}]]]>
+                <![CDATA[[TestResult name=verifySuccessfulOrderPlacement status=FAILURE method=PaymentTest.verifySuccessfulOrderPlacement()[pri:0, instance:testcases.PaymentTest@22ff4249] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- testcases.ContactUsTest -->
+      </class> <!-- testcases.PaymentTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
