@@ -6,24 +6,10 @@
       <class name="testcases.CheckoutTest">
         <methods>
           <include name="tearDown"/>
+          <include name="verifyPlaceOrderNavigation"/>
           <include name="setup"/>
-          <include name="verifyOrderReviewDetails"/>
         </methods>
       </class> <!-- testcases.CheckoutTest -->
-      <class name="testcases.ProductsTest">
-        <methods>
-          <include name="tearDown"/>
-          <include name="setup"/>
-          <include name="verifyValidProductSearch"/>
-        </methods>
-      </class> <!-- testcases.ProductsTest -->
-      <class name="testcases.PaymentTest">
-        <methods>
-          <include name="tearDown"/>
-          <include name="setup"/>
-          <include name="verifySuccessfulOrderPlacement"/>
-        </methods>
-      </class> <!-- testcases.PaymentTest -->
     </classes>
   </test> <!-- AutomationTests(failed) -->
 </suite> <!-- Failed suite [AutomationExerciseSuite] -->

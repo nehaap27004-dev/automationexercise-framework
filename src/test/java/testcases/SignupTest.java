@@ -17,9 +17,9 @@ public class SignupTest extends BaseClass{
 		lp.clickSignupLogin();
 		
 		// Enter signup name 
-		lp.enterSignupName("Neha"); 
+		lp.enterSignupName("Name"); 
 		// Enter signup email 
-		lp.enterSignupEmail("naap23455@gmail.com"); 
+		lp.enterSignupEmail("neha11@gmail.com"); 
 		// Click signup button 
 		lp.clickSignupButton(); 
 		// Verify Enter Account Information page 
@@ -72,7 +72,7 @@ public class SignupTest extends BaseClass{
 
 	// IMPORTANT:
 	// Change email every execution
-	lp.enterSignupEmail("nehaapne89998@gmail.com");
+	lp.enterSignupEmail("nehaapne666@gmail.com");
 
 	// Click Signup Button
 	lp.clickSignupButton();

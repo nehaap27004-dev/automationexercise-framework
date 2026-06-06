@@ -1,9 +1,16 @@
 package pages;
 
+import java.time.Duration;
+
 import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class PaymentPage {
+
 
 	WebDriver driver;
 	
@@ -65,10 +72,25 @@ public class PaymentPage {
 	
 	public void clickPayAndConfirmOrder() {
 	
-	    driver.findElement(payAndConfirmButton).click();
+	    WebDriverWait wait =
+	            new WebDriverWait(driver, Duration.ofSeconds(15));
+	
+	    WebElement payButton =
+	            wait.until(ExpectedConditions.elementToBeClickable(payAndConfirmButton));
+	
+	    JavascriptExecutor js = (JavascriptExecutor) driver;
+	
+	    js.executeScript("arguments[0].scrollIntoView(true);", payButton);
+	
+	    js.executeScript("arguments[0].click();", payButton);
 	}
 	
 	public String getOrderSuccessMessage() {
+	
+	    WebDriverWait wait =
+	            new WebDriverWait(driver, Duration.ofSeconds(15));
+	
+	    wait.until(ExpectedConditions.visibilityOfElementLocated(orderSuccessMessage));
 	
 	    return driver.findElement(orderSuccessMessage).getText();
 	}

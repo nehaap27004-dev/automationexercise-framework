@@ -8,62 +8,26 @@
 <body>
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
-<tr><th colspan="8">Default suite</th></tr>
-<tr><td><a href="#t0">Default test</a></td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">256,530</td><td></td><td></td></tr>
+<tr><th colspan="8">AutomationExerciseSuite</th></tr>
+<tr><td><a href="#t0">AutomationTests</a></td><td class="num">16</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">421,631</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Default suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Default test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">testcases.PaymentTest</td><td><a href="#m0">verifySuccessfulOrderPlacement</a></td><td rowspan="1">1780743249096</td><td rowspan="1">216158</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">AutomationExerciseSuite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">AutomationTests &#8212; passed</th></tr><tr class="passedeven"><td rowspan="2">testcases.CheckoutTest</td><td><a href="#m0">verifyAddressDetails</a></td><td rowspan="1">1780750150654</td><td rowspan="1">61696</td></tr><tr class="passedeven"><td><a href="#m1">verifyCheckoutNavigation</a></td><td rowspan="1">1780750224664</td><td rowspan="1">12813</td></tr><tr class="passedodd"><td rowspan="3">testcases.ContactUsTest</td><td><a href="#m2">verifyContactFormSubmission</a></td><td rowspan="1">1780750282835</td><td rowspan="1">10351</td></tr><tr class="passedodd"><td><a href="#m3">verifyContactUsPageNavigation</a></td><td rowspan="1">1780750312050</td><td rowspan="1">4394</td></tr><tr class="passedodd"><td><a href="#m4">verifyFileUploadSubmission</a></td><td rowspan="1">1780750327508</td><td rowspan="1">16640</td></tr><tr class="passedeven"><td rowspan="2">testcases.LoginTest</td><td><a href="#m5">verifyLogoutFunctionality</a></td><td rowspan="1">1780750002524</td><td rowspan="1">12106</td></tr><tr class="passedeven"><td><a href="#m6">verifyValidLogin</a></td><td rowspan="1">1780750027224</td><td rowspan="1">6419</td></tr><tr class="passedodd"><td rowspan="1">testcases.PaymentTest</td><td><a href="#m7">verifySuccessfulOrderPlacement</a></td><td rowspan="1">1780750248538</td><td rowspan="1">22630</td></tr><tr class="passedeven"><td rowspan="5">testcases.ProductsTest</td><td><a href="#m8">verifyAddProductToCart</a></td><td rowspan="1">1780750045899</td><td rowspan="1">2602</td></tr><tr class="passedeven"><td><a href="#m9">verifyProductDetails</a></td><td rowspan="1">1780750059553</td><td rowspan="1">9025</td></tr><tr class="passedeven"><td><a href="#m10">verifyRemoveProductFromCart</a></td><td rowspan="1">1780750081128</td><td rowspan="1">8595</td></tr><tr class="passedeven"><td><a href="#m11">verifyViewProduct</a></td><td rowspan="1">1780750119364</td><td rowspan="1">1930</td></tr><tr class="passedeven"><td><a href="#m12">verifyWomenCategoryFilter</a></td><td rowspan="1">1780750129896</td><td rowspan="1">9116</td></tr><tr class="passedodd"><td rowspan="3">testcases.SignupTest</td><td><a href="#m13">verifyAccountCreation</a></td><td rowspan="1">1780749941055</td><td rowspan="1">14856</td></tr><tr class="passedodd"><td><a href="#m14">verifyExistingEmailSignup</a></td><td rowspan="1">1780749965389</td><td rowspan="1">6420</td></tr><tr class="passedodd"><td><a href="#m15">verifyValidUserSignup</a></td><td rowspan="1">1780749985223</td><td rowspan="1">8101</td></tr></tbody>
 </table>
-<h2>Default test</h2><h3 id="m0">testcases.PaymentTest#verifySuccessfulOrderPlacement</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;*[name=&apos;name_on_card&apos;]&quot;}
-  (Session info: chrome=148.0.7778.217)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: &apos;4.21.0&apos;, revision: &apos;79ed462ef4&apos;
-System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.11&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [1337f6cc46358ff3b5f53dbae928f794, findElement {using=name, value=name_on_card}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.217, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\nehaa\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50859}, goog:processID: 77764, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50859/devtoo..., se:cdpVersion: 148.0.7778.217, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 1337f6cc46358ff3b5f53dbae928f794
-	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
-	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
-	at pages.PaymentPage.enterNameOnCard(PaymentPage.java:43)
-	at testcases.PaymentTest.verifySuccessfulOrderPlacement(PaymentTest.java:64)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at org.testng.TestRunner.privateRun(TestRunner.java:739)
-	at org.testng.TestRunner.run(TestRunner.java:614)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-	at org.testng.TestNG.runSuites(TestNG.java:1112)
-	at org.testng.TestNG.run(TestNG.java:1079)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>AutomationTests</h2><h3 id="m0">testcases.CheckoutTest#verifyAddressDetails</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">testcases.CheckoutTest#verifyCheckoutNavigation</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">testcases.ContactUsTest#verifyContactFormSubmission</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">testcases.ContactUsTest#verifyContactUsPageNavigation</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">testcases.ContactUsTest#verifyFileUploadSubmission</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">testcases.LoginTest#verifyLogoutFunctionality</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">testcases.LoginTest#verifyValidLogin</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">testcases.PaymentTest#verifySuccessfulOrderPlacement</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m8">testcases.ProductsTest#verifyAddProductToCart</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m9">testcases.ProductsTest#verifyProductDetails</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m10">testcases.ProductsTest#verifyRemoveProductFromCart</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m11">testcases.ProductsTest#verifyViewProduct</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m12">testcases.ProductsTest#verifyWomenCategoryFilter</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m13">testcases.SignupTest#verifyAccountCreation</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m14">testcases.SignupTest#verifyExistingEmailSignup</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m15">testcases.SignupTest#verifyValidUserSignup</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>

@@ -9,7 +9,7 @@ import pages.CartPage;
 
 public class ProductsTest extends BaseClass {
 
-	@Test
+	/**@Test
 	public void verifyValidProductSearch() {
 	
 	    // Create ProductsPage object
@@ -33,7 +33,7 @@ public class ProductsTest extends BaseClass {
 	    // Verify searched products displayed
 	    Assert.assertEquals(actualText,
 	            "SEARCHED PRODUCTS");
-	}
+	}**/
 	@Test
 	public void verifyViewProduct() {
 

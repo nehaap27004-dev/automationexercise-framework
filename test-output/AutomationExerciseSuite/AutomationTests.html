@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>AutomationTests</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>16/3/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>16/0/0</td>
 </tr><tr>
-<td>Started on:</td><td>Sat Jun 06 16:04:02 IST 2026</td>
+<td>Started on:</td><td>Sat Jun 06 18:15:23 IST 2026</td>
 </tr>
-<tr><td>Total time:</td><td>1087 seconds (1087806 ms)</td>
+<tr><td>Total time:</td><td>421 seconds (421631 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,249 +67,6 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
-<table width='100%' border='1' class='invocation-failed'>
-<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
-<tr><td><b>Test method</b></td>
-<td><b>Attribute(s)</b></td>
-<td width="30%"><b>Exception</b></td>
-<td width="10%"><b>Time (seconds)</b></td>
-<td><b>Instance</b></td>
-</tr>
-<tr>
-<td title='testcases.ProductsTest.verifyValidProductSearch()'><b>verifyValidProductSearch</b><br>Test class: testcases.ProductsTest</td>
-<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#search_product&quot;}
-  (Session info: chrome=148.0.7778.217)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: &apos;4.21.0&apos;, revision: &apos;79ed462ef4&apos;
-System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.11&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [b12a756842787a8f4e21fe3cdd9b93ed, findElement {value=search_product, using=id}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.217, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\nehaa\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58829}, goog:processID: 70580, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58829/devtoo..., se:cdpVersion: 148.0.7778.217, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: b12a756842787a8f4e21fe3cdd9b93ed
-	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:66)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
-	at pages.ProductsPage.enterSearchProduct(ProductsPage.java:63)
-	at testcases.ProductsTest.verifyValidProductSearch(ProductsTest.java:22)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-... Removed 28 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace287056540", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace287056540'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#search_product&quot;}
-  (Session info: chrome=148.0.7778.217)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: &apos;4.21.0&apos;, revision: &apos;79ed462ef4&apos;
-System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.11&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [b12a756842787a8f4e21fe3cdd9b93ed, findElement {value=search_product, using=id}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.217, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\nehaa\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58829}, goog:processID: 70580, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58829/devtoo..., se:cdpVersion: 148.0.7778.217, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: b12a756842787a8f4e21fe3cdd9b93ed
-	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
-	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:66)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
-	at pages.ProductsPage.enterSearchProduct(ProductsPage.java:63)
-	at testcases.ProductsTest.verifyValidProductSearch(ProductsTest.java:22)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at org.testng.TestRunner.privateRun(TestRunner.java:739)
-	at org.testng.TestRunner.run(TestRunner.java:614)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-	at org.testng.TestNG.runSuites(TestNG.java:1112)
-	at org.testng.TestNG.run(TestNG.java:1079)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-</pre></div></td>
-<td>50</td>
-<td>testcases.ProductsTest@4c178a76</td></tr>
-<tr>
-<td title='testcases.PaymentTest.verifySuccessfulOrderPlacement()'><b>verifySuccessfulOrderPlacement</b><br>Test class: testcases.PaymentTest</td>
-<td><div><pre>org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;button class=&quot;form-control btn btn-primary submit-button&quot; data-qa=&quot;pay-button&quot; id=&quot;submit&quot; type=&quot;submit&quot;&gt;...&lt;/button&gt; is not clickable at point (760, 565). Other element would receive the click: &lt;div class=&quot;grippy-host&quot;&gt;&lt;/div&gt;
-  (Session info: chrome=148.0.7778.217)
-Build info: version: &apos;4.21.0&apos;, revision: &apos;79ed462ef4&apos;
-System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.11&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [03f9a8f47dfbdf8020bb5b73124544fd, clickElement {id=f.7897F185E61A72B7BE2EA7B5979B643D.d.A7A05A063B336430B039F089C1503B51.e.226}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.217, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\nehaa\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64412}, goog:processID: 36564, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64412/devtoo..., se:cdpVersion: 148.0.7778.217, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (03f9a8f47dfbdf8020bb5b73124544fd)] -&gt; id: submit]
-Session ID: 03f9a8f47dfbdf8020bb5b73124544fd
-	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
-	at pages.PaymentPage.clickPayAndConfirmOrder(PaymentPage.java:68)
-	at testcases.PaymentTest.verifySuccessfulOrderPlacement(PaymentTest.java:75)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-... Removed 28 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1046396414", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1046396414'><pre>org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;button class=&quot;form-control btn btn-primary submit-button&quot; data-qa=&quot;pay-button&quot; id=&quot;submit&quot; type=&quot;submit&quot;&gt;...&lt;/button&gt; is not clickable at point (760, 565). Other element would receive the click: &lt;div class=&quot;grippy-host&quot;&gt;&lt;/div&gt;
-  (Session info: chrome=148.0.7778.217)
-Build info: version: &apos;4.21.0&apos;, revision: &apos;79ed462ef4&apos;
-System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.11&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [03f9a8f47dfbdf8020bb5b73124544fd, clickElement {id=f.7897F185E61A72B7BE2EA7B5979B643D.d.A7A05A063B336430B039F089C1503B51.e.226}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.217, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\nehaa\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64412}, goog:processID: 36564, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64412/devtoo..., se:cdpVersion: 148.0.7778.217, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (03f9a8f47dfbdf8020bb5b73124544fd)] -&gt; id: submit]
-Session ID: 03f9a8f47dfbdf8020bb5b73124544fd
-	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
-	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
-	at pages.PaymentPage.clickPayAndConfirmOrder(PaymentPage.java:68)
-	at testcases.PaymentTest.verifySuccessfulOrderPlacement(PaymentTest.java:75)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at org.testng.TestRunner.privateRun(TestRunner.java:739)
-	at org.testng.TestRunner.run(TestRunner.java:614)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-	at org.testng.TestNG.runSuites(TestNG.java:1112)
-	at org.testng.TestNG.run(TestNG.java:1079)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-</pre></div></td>
-<td>84</td>
-<td>testcases.PaymentTest@3bd82cf5</td></tr>
-<tr>
-<td title='testcases.CheckoutTest.verifyOrderReviewDetails()'><b>verifyOrderReviewDetails</b><br>Test class: testcases.CheckoutTest</td>
-<td><div><pre>org.openqa.selenium.StaleElementReferenceException: stale element reference: stale element not found
-  (Session info: chrome=148.0.7778.217)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
-Build info: version: &apos;4.21.0&apos;, revision: &apos;79ed462ef4&apos;
-System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.11&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [e24fbf299f65c74baae0593f087903c9, clickElement {id=f.59C3F704A6887A8B28798860D93CA474.d.86FCAE51B4F9FB0CD9047D6A1AEDF0F1.e.81}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.217, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\nehaa\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64561}, goog:processID: 66116, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64561/devtoo..., se:cdpVersion: 148.0.7778.217, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (e24fbf299f65c74baae0593f087903c9)] -&gt; xpath: //a[contains(text(),&apos;Products&apos;)]]
-Session ID: e24fbf299f65c74baae0593f087903c9
-	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
-	at pages.ProductsPage.clickProductsButton(ProductsPage.java:58)
-	at testcases.CheckoutTest.verifyOrderReviewDetails(CheckoutTest.java:148)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-... Removed 28 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1492590940", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1492590940'><pre>org.openqa.selenium.StaleElementReferenceException: stale element reference: stale element not found
-  (Session info: chrome=148.0.7778.217)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
-Build info: version: &apos;4.21.0&apos;, revision: &apos;79ed462ef4&apos;
-System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.11&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [e24fbf299f65c74baae0593f087903c9, clickElement {id=f.59C3F704A6887A8B28798860D93CA474.d.86FCAE51B4F9FB0CD9047D6A1AEDF0F1.e.81}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.217, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\nehaa\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64561}, goog:processID: 66116, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64561/devtoo..., se:cdpVersion: 148.0.7778.217, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (e24fbf299f65c74baae0593f087903c9)] -&gt; xpath: //a[contains(text(),&apos;Products&apos;)]]
-Session ID: e24fbf299f65c74baae0593f087903c9
-	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
-	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
-	at pages.ProductsPage.clickProductsButton(ProductsPage.java:58)
-	at testcases.CheckoutTest.verifyOrderReviewDetails(CheckoutTest.java:148)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at org.testng.TestRunner.privateRun(TestRunner.java:739)
-	at org.testng.TestRunner.run(TestRunner.java:614)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-	at org.testng.TestNG.runSuites(TestNG.java:1112)
-	at org.testng.TestNG.run(TestNG.java:1079)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-</pre></div></td>
-<td>24</td>
-<td>testcases.CheckoutTest@fa4c865</td></tr>
-</table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
@@ -319,85 +76,85 @@ Session ID: e24fbf299f65c74baae0593f087903c9
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='testcases.CheckoutTest.verifyPlaceOrderNavigation()'><b>verifyPlaceOrderNavigation</b><br>Test class: testcases.CheckoutTest</td>
+<td title='testcases.ProductsTest.verifyAddProductToCart()'><b>verifyAddProductToCart</b><br>Test class: testcases.ProductsTest</td>
 <td></td>
-<td>85</td>
-<td>testcases.CheckoutTest@fa4c865</td></tr>
-<tr>
-<td title='testcases.ProductsTest.verifyRemoveProductFromCart()'><b>verifyRemoveProductFromCart</b><br>Test class: testcases.ProductsTest</td>
-<td></td>
-<td>9</td>
-<td>testcases.ProductsTest@4c178a76</td></tr>
-<tr>
-<td title='testcases.LoginTest.verifyLogoutFunctionality()'><b>verifyLogoutFunctionality</b><br>Test class: testcases.LoginTest</td>
-<td></td>
-<td>28</td>
-<td>testcases.LoginTest@b2c9a9c</td></tr>
-<tr>
-<td title='testcases.ContactUsTest.verifyContactFormSubmission()'><b>verifyContactFormSubmission</b><br>Test class: testcases.ContactUsTest</td>
-<td></td>
-<td>13</td>
-<td>testcases.ContactUsTest@544fa968</td></tr>
-<tr>
-<td title='testcases.LoginTest.verifyValidLogin()'><b>verifyValidLogin</b><br>Test class: testcases.LoginTest</td>
-<td></td>
-<td>48</td>
-<td>testcases.LoginTest@b2c9a9c</td></tr>
-<tr>
-<td title='testcases.ProductsTest.verifyProductDetails()'><b>verifyProductDetails</b><br>Test class: testcases.ProductsTest</td>
-<td></td>
-<td>18</td>
-<td>testcases.ProductsTest@4c178a76</td></tr>
-<tr>
-<td title='testcases.ProductsTest.verifyWomenCategoryFilter()'><b>verifyWomenCategoryFilter</b><br>Test class: testcases.ProductsTest</td>
-<td></td>
-<td>5</td>
-<td>testcases.ProductsTest@4c178a76</td></tr>
-<tr>
-<td title='testcases.CheckoutTest.verifyCheckoutNavigation()'><b>verifyCheckoutNavigation</b><br>Test class: testcases.CheckoutTest</td>
-<td></td>
-<td>49</td>
-<td>testcases.CheckoutTest@fa4c865</td></tr>
-<tr>
-<td title='testcases.CheckoutTest.verifyAddressDetails()'><b>verifyAddressDetails</b><br>Test class: testcases.CheckoutTest</td>
-<td></td>
-<td>76</td>
-<td>testcases.CheckoutTest@fa4c865</td></tr>
-<tr>
-<td title='testcases.SignupTest.verifyValidUserSignup()'><b>verifyValidUserSignup</b><br>Test class: testcases.SignupTest</td>
-<td></td>
-<td>9</td>
-<td>testcases.SignupTest@385c9627</td></tr>
-<tr>
-<td title='testcases.ContactUsTest.verifyFileUploadSubmission()'><b>verifyFileUploadSubmission</b><br>Test class: testcases.ContactUsTest</td>
-<td></td>
-<td>14</td>
-<td>testcases.ContactUsTest@544fa968</td></tr>
+<td>2</td>
+<td>testcases.ProductsTest@8297b3a</td></tr>
 <tr>
 <td title='testcases.ProductsTest.verifyViewProduct()'><b>verifyViewProduct</b><br>Test class: testcases.ProductsTest</td>
 <td></td>
-<td>3</td>
-<td>testcases.ProductsTest@4c178a76</td></tr>
+<td>1</td>
+<td>testcases.ProductsTest@8297b3a</td></tr>
 <tr>
-<td title='testcases.SignupTest.verifyExistingEmailSignup()'><b>verifyExistingEmailSignup</b><br>Test class: testcases.SignupTest</td>
+<td title='testcases.ProductsTest.verifyWomenCategoryFilter()'><b>verifyWomenCategoryFilter</b><br>Test class: testcases.ProductsTest</td>
 <td></td>
-<td>6</td>
-<td>testcases.SignupTest@385c9627</td></tr>
-<tr>
-<td title='testcases.ProductsTest.verifyAddProductToCart()'><b>verifyAddProductToCart</b><br>Test class: testcases.ProductsTest</td>
-<td></td>
-<td>25</td>
-<td>testcases.ProductsTest@4c178a76</td></tr>
+<td>9</td>
+<td>testcases.ProductsTest@8297b3a</td></tr>
 <tr>
 <td title='testcases.ContactUsTest.verifyContactUsPageNavigation()'><b>verifyContactUsPageNavigation</b><br>Test class: testcases.ContactUsTest</td>
 <td></td>
 <td>4</td>
-<td>testcases.ContactUsTest@544fa968</td></tr>
+<td>testcases.ContactUsTest@4c178a76</td></tr>
+<tr>
+<td title='testcases.SignupTest.verifyExistingEmailSignup()'><b>verifyExistingEmailSignup</b><br>Test class: testcases.SignupTest</td>
+<td></td>
+<td>6</td>
+<td>testcases.SignupTest@3fc2959f</td></tr>
+<tr>
+<td title='testcases.CheckoutTest.verifyAddressDetails()'><b>verifyAddressDetails</b><br>Test class: testcases.CheckoutTest</td>
+<td></td>
+<td>61</td>
+<td>testcases.CheckoutTest@2362f559</td></tr>
 <tr>
 <td title='testcases.SignupTest.verifyAccountCreation()'><b>verifyAccountCreation</b><br>Test class: testcases.SignupTest</td>
 <td></td>
-<td>17</td>
-<td>testcases.SignupTest@385c9627</td></tr>
+<td>14</td>
+<td>testcases.SignupTest@3fc2959f</td></tr>
+<tr>
+<td title='testcases.SignupTest.verifyValidUserSignup()'><b>verifyValidUserSignup</b><br>Test class: testcases.SignupTest</td>
+<td></td>
+<td>8</td>
+<td>testcases.SignupTest@3fc2959f</td></tr>
+<tr>
+<td title='testcases.ProductsTest.verifyRemoveProductFromCart()'><b>verifyRemoveProductFromCart</b><br>Test class: testcases.ProductsTest</td>
+<td></td>
+<td>8</td>
+<td>testcases.ProductsTest@8297b3a</td></tr>
+<tr>
+<td title='testcases.LoginTest.verifyLogoutFunctionality()'><b>verifyLogoutFunctionality</b><br>Test class: testcases.LoginTest</td>
+<td></td>
+<td>12</td>
+<td>testcases.LoginTest@7817fd62</td></tr>
+<tr>
+<td title='testcases.ProductsTest.verifyProductDetails()'><b>verifyProductDetails</b><br>Test class: testcases.ProductsTest</td>
+<td></td>
+<td>9</td>
+<td>testcases.ProductsTest@8297b3a</td></tr>
+<tr>
+<td title='testcases.CheckoutTest.verifyCheckoutNavigation()'><b>verifyCheckoutNavigation</b><br>Test class: testcases.CheckoutTest</td>
+<td></td>
+<td>12</td>
+<td>testcases.CheckoutTest@2362f559</td></tr>
+<tr>
+<td title='testcases.PaymentTest.verifySuccessfulOrderPlacement()'><b>verifySuccessfulOrderPlacement</b><br>Test class: testcases.PaymentTest</td>
+<td></td>
+<td>22</td>
+<td>testcases.PaymentTest@b2c9a9c</td></tr>
+<tr>
+<td title='testcases.ContactUsTest.verifyFileUploadSubmission()'><b>verifyFileUploadSubmission</b><br>Test class: testcases.ContactUsTest</td>
+<td></td>
+<td>16</td>
+<td>testcases.ContactUsTest@4c178a76</td></tr>
+<tr>
+<td title='testcases.LoginTest.verifyValidLogin()'><b>verifyValidLogin</b><br>Test class: testcases.LoginTest</td>
+<td></td>
+<td>6</td>
+<td>testcases.LoginTest@7817fd62</td></tr>
+<tr>
+<td title='testcases.ContactUsTest.verifyContactFormSubmission()'><b>verifyContactFormSubmission</b><br>Test class: testcases.ContactUsTest</td>
+<td></td>
+<td>10</td>
+<td>testcases.ContactUsTest@4c178a76</td></tr>
 </table><p>
 </body>
 </html>
